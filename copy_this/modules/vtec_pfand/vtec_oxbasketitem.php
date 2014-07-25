@@ -51,5 +51,10 @@ class  vtec_oxbasketitem extends vtec_oxbasketitem_parent
         $this->_sLink = $artLink;
         return $this->getSession()->processUrl( $this->_sLink );
     }
+    
+    public function setTitle($sTitle)
+    {
+      return $this->_sTitle=$sTitle;
+    } 
 }
 ?>

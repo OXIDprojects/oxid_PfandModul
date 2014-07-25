@@ -103,7 +103,7 @@ class  vtec_oxbasket extends vtec_oxbasket_parent
      * @param bool   $blOverride        marker to accumulate passed amount or renew (default false)
      * @param bool   $blBundle          marker if product is bundle or not (default false)
      * @param mixed  $sOldBasketItemId  id if old basket item if to change it
-     * @param string $pawnParentKey     key of pawn Parent
+     * @param string $VtecPfandParentKey  Schlüssel des Pfand-Vaters
      *
      * @throws oxOutOfStockException oxArticleInputException, oxNoArticleException
      *
